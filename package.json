@@ -1,0 +1,29 @@
+{
+  "name": "apidummy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "typings": "webapi",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "npm install",
+    "build": "tsc && tsc --project ./tsconfig.json",
+    "start": "node build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/koa": "^2.0.39",
+    "@types/koa-bodyparser": "^3.0.23",
+    "@types/koa-router": "^7.0.22",
+    "@types/mongodb": "^2.2.2",
+    "@types/node": "^7.0.27"
+  },
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.2.1",
+    "mongodb": "^2.2.30"
+  }
+}

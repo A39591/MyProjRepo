@@ -1,0 +1,20 @@
+
+.nyc_output
+
+coverage
+reports
+build
+
+scripts/full-import/exports
+Jenkinsfile.test.groovy
+
+build.properties
+
+node_modules
+.vs
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
