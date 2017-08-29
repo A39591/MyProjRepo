@@ -10,7 +10,7 @@ export class Person{
     constructor(id:string,name:string,gender:string){
         this.id = id;
         this.name = name;
-        this.gender = gender;
+			this.gender = gender;
     }
 
 }
